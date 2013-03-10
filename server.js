@@ -9,7 +9,7 @@ var app = require('./config/app')( __dirname );
     // todo: figure out pathing
     //app.use( express.static('../public')
 
-console.log('\x1b[36mSpace Age\x1b[90m v%s\x1b[0m running as \x1b[1m%s\x1b[0m on http://%s:%d'
+console.log('\x1b[36mStarter Kit\x1b[90m v%s\x1b[0m running as \x1b[1m%s\x1b[0m on http://%s:%d'
     , app.set('version')
     , app.set('env')
     , app.set('host')
