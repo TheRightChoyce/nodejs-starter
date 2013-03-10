@@ -2,7 +2,7 @@ require('coffee-script');
 
 if( !process.env.NODE_ENV ) process.env.NODE_ENV="local"
 
-var app = require('./app/config/app')( __dirname );
+var app = require('./config/app')( __dirname );
     
     app.listen( app.set('port') );
     
