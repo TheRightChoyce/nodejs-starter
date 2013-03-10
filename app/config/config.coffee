@@ -14,7 +14,7 @@ module.exports = (app, appRoot) ->
         app.set 'webRoot', path.join( path.join( appRoot, 'app' ), 'public' )
         
         # configure views
-        app.set 'views', path.join( path.join( app.get('webRoot'), 'views'), 'templates' )
+        app.set 'views', path.join app.get('webRoot'), 'templates'
         app.set 'view engine', 'jade'
         
         # configure the useage of express

@@ -10,8 +10,10 @@ module.exports = (app) ->
     return stitch.createPackage
         
         paths: [
-           app.get('webRoot') + '/models'
-           app.get('webRoot') + '/views'
+           app.get('webRoot') + '/js/models'
+           app.get('webRoot') + '/js/views'
+           app.get('webRoot') + '/js/controllers'
+           app.get('webRoot') + '/js/routers'
         ]
         
         dependencies: [
