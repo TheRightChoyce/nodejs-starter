@@ -4,12 +4,14 @@ express     = require 'express'
 config      = require './config'
 routes      = require './routes'
 
-module.exports = (webRoot) ->
+#
+# creates a new app and specifiy the app root
+module.exports = (appRoot) ->
     
     app = express()
 
     # general config
-    config( app, webRoot )
+    config( app, appRoot )
 
     # set our routes
     routes( app )

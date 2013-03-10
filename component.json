@@ -2,6 +2,7 @@
   "name": "nodejs starter kit",
   "version": "0.0.0",
   "dependencies": {
-    "bootstrap": "http://twitter.github.com/bootstrap/assets/bootstrap.zip"
+    "bootstrap": "http://twitter.github.com/bootstrap/assets/bootstrap.zip",
+    "jquery": "~1.9.1"
   }
 }

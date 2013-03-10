@@ -3,13 +3,15 @@
 #
 stitch       = require 'stitch'
 
-
+#
+# Uses stitch to create a pre-compiled asset pipeline
 module.exports = (app) ->
 
     return stitch.createPackage
         
         paths: [
-           '/shared/js/models'
+           app.get('webRoot') + '/models'
+           app.get('webRoot') + '/views'
         ]
         
         dependencies: [
