@@ -13,7 +13,7 @@ module.exports = (appRoot) ->
     # general config
     config( app, appRoot )
 
-    # set our routes
+    # setup our routes
     routes( app )
     
     return app

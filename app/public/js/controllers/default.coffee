@@ -1,5 +1,5 @@
 Backbone    = require 'Backbone'
 
-model.exports.defaultController = Backbone.extend.controller(
+model.exports.DefaultController = Backbone.extend.controller(
 
 )
