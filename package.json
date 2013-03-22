@@ -2,9 +2,9 @@
   "name": "nodejs-starter-kit",
   "version": "0.0.1",
   "private": true,
-  
+  "description": "node js starter kit",
   "scripts": {
-    "start": "node server"
+    "start": "coffee server"
   },
   
   "dependencies": {
